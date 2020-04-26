@@ -26,7 +26,6 @@ function save_options() {
 // Restores select box and checkbox state using the preferences
 // stored in chrome.storage.
 function restore_options() {
-  // Use default value color = 'red'
   chrome.storage.sync.get({
     settings: 'default',
   }, function (items) {

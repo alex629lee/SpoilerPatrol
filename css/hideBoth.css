@@ -1,0 +1,6 @@
+#source_showview .short-desc {
+  display: none;
+}
+.season .portrait-element img.landscape {
+  display: none;
+}

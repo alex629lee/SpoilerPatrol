@@ -3,7 +3,8 @@ const updateSettings = (tabId) => {
     settings: 'default'
   }, (items) => {
     chrome.tabs.insertCSS(tabId, {
-      file: `css/${items.settings}.css`
+      file: `css/${items.settings}.css`,
+      allFrames: false, runAt: "document_start" 
     });
   });
 }
@@ -11,7 +12,7 @@ const updateSettings = (tabId) => {
 const browserListener = (tabId, changeInfo, tab) => {
   const regexPage = new RegExp(/https:\/\/www.crunchyroll.com\//);
   const match = regexPage.exec(tab.url);
-  if (match && tab.status === 'complete') {
+  if (match) {
     updateSettings(tab.id);
   }
 }

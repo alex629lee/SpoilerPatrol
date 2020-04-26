@@ -40,7 +40,7 @@ select {
 .btn {
   font-size: 14px;
   width: 100%;
-  background-color: rgb(240, 160, 172);
+  background-color: rgb(70, 79, 135);
   color: white;
   transition: background-color 0.2s ease-in-out;
   margin-top: 5px;
@@ -48,6 +48,6 @@ select {
 
 .btn:hover {
   color: white;
-  background-color: rgb(235, 134, 149);
+  background-color: rgb(39, 45, 91);
 }
 
