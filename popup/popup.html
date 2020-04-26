@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crunchyroll Spoiler Shade</title>
+
+  <!-- BOOTSTRAP -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="popup.css">
+</head>
+
+<body>
+  <main>
+    <img src="../images/icon.png" />
+    Hide Settings:
+    <select class="form-control" id="hideSettings">
+      <option value="default">None</option>
+      <option value="hideThumbs">Hide Thumbnail Pictures</option>
+      <option value="hideTitles">Hide Episode Titles</option>
+      <option value="hideBoth">Hide Thumbnails and Titles</option>
+    </select>
+    <button type="button" class="btn btn-secondary" id="save">Save</button>
+  </main>
+  <script src="popup.js"></script>
+</body>
+
+</html>

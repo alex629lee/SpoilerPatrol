@@ -1,0 +1,26 @@
+{
+  "manifest_version": 1,
+  "name": "Spoiler Shade for Crunchyroll",
+  "description": "Hides episode titles and thumbnails on Crunchyroll's site",
+  "version": "0.0.0.1",
+  "browser_action": {
+    "default_icon": "images/icon48.png",
+    "default_title": "Spoiler Shade",
+    "default_popup": "popup/popup.html"
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": false
+  },
+  "permissions": [
+    "storage",
+    "tabs",
+    "https://www.crunchyroll.com/*"
+  ],
+  "icons": {
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  }
+}
