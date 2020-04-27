@@ -3,7 +3,7 @@
   height: 70px;
   box-sizing:border-box;
   padding-left: 125px;
-  background: url("https://raw.githubusercontent.com/alex629lee/SpoilerShade/master/images/icon.png") left top no-repeat, black;
+  background: url("https://raw.githubusercontent.com/alex629lee/SpoilerPatrol/master/images/icon.png") left top no-repeat, black;
   background-size: contain;
   background-position: center;
 }
@@ -13,7 +13,7 @@
   height: 60px;
   box-sizing:border-box;
   padding-left: 106px;
-  background: url("https://raw.githubusercontent.com/alex629lee/SpoilerShade/master/images/icon.png") left top no-repeat, black;
+  background: url("https://raw.githubusercontent.com/alex629lee/SpoilerPatrol/master/images/icon.png") left top no-repeat, black;
   background-size: contain;
   background-position: center;
 }
