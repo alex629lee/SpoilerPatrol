@@ -1,6 +1,41 @@
 #source_showview .short-desc {
   display: none;
 }
+
 .season .portrait-element img.landscape {
+  width: 125px;
+  height: 70px;
+  box-sizing:border-box;
+  padding-left: 125px;
+  background: url("https://raw.githubusercontent.com/alex629lee/SpoilerShade/master/images/icon.png") left top no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.collection-carousel-media .mug {
+  width: 106px;
+  height: 60px;
+  box-sizing:border-box;
+  padding-left: 106px;
+  background: url("https://raw.githubusercontent.com/alex629lee/SpoilerShade/master/images/icon.png") left top no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+#showmedia_about_name {
   display: none;
+}
+
+#showmedia_about_info .description {
+  display: none;
+}
+.collection-carousel-overlay-bottom.ellipsis.xsmall-margin-bottom {
+  display: none;
+}
+
+.collection-carousel-media-thumb > a {
+  height: 103px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly
 }

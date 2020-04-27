@@ -1,3 +1,21 @@
 #source_showview .short-desc {
   display: none;
 }
+
+#showmedia_about_name {
+  display: none;
+}
+
+#showmedia_about_info .description {
+  display: none;
+}
+.collection-carousel-overlay-bottom.ellipsis.xsmall-margin-bottom {
+  display: none;
+}
+
+.collection-carousel-media-thumb > a {
+  height: 103px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly
+}
